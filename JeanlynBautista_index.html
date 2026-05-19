@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith & Grace</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI', sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #1e1b4b, #312e81, #4338ca);
+            min-height:100vh;
+            color:white;
+            overflow-x:hidden;
+        }
+
+        header{
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        header h1{
+            font-size:55px;
+            letter-spacing:2px;
+            color:#facc15;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:18px;
+            color:#e0e7ff;
+        }
+
+        .container{
+            width:90%;
+            max-width:1100px;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:25px;
+            padding:20px 0 50px;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.08);
+            border:1px solid rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius:20px;
+            padding:30px;
+            transition:0.4s;
+            box-shadow:0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+            background:rgba(255,255,255,0.12);
+        }
+
+        .card h2{
+            color:#fde68a;
+            margin-bottom:15px;
+            font-size:28px;
+        }
+
+        .card p{
+            line-height:1.8;
+            color:#f3f4f6;
+        }
+
+        .verse{
+            margin-top:20px;
+            padding:15px;
+            border-left:4px solid #facc15;
+            background:rgba(255,255,255,0.05);
+            border-radius:10px;
+            font-style:italic;
+            color:#fff7ed;
+        }
+
+        .about{
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        .about h2{
+            font-size:40px;
+            color:#facc15;
+            margin-bottom:15px;
+        }
+
+        .about p{
+            max-width:800px;
+            margin:auto;
+            line-height:1.9;
+            color:#e5e7eb;
+            font-size:17px;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            color:#d1d5db;
+            border-top:1px solid rgba(255,255,255,0.1);
+        }
+
+        .glow{
+            position:absolute;
+            width:250px;
+            height:250px;
+            background:#facc15;
+            filter:blur(150px);
+            opacity:0.2;
+            z-index:-1;
+        }
+
+        .glow1{
+            top:0;
+            left:0;
+        }
+
+        .glow2{
+            bottom:0;
+            right:0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+
+    <header>
+        <h1>Faith & Grace</h1>
+        <p>Walking with God through faith, hope, and love.</p>
+    </header>
+
+    <section class="container">
+
+        <div class="card">
+            <h2>God's Love</h2>
+            <p>
+                God's love is endless and unconditional. 
+                In every challenge, He remains our strength, comfort, 
+                and guiding light. His grace gives peace to every heart.
+            </p>
+
+            <div class="verse">
+                “For God so loved the world that He gave His one and only Son.”
+                — John 3:16
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Faith in Every Step</h2>
+            <p>
+                Faith means trusting God even when life feels uncertain. 
+                Every prayer, every struggle, and every blessing is part 
+                of His perfect plan for us.
+            </p>
+
+            <div class="verse">
+                “Trust in the Lord with all your heart.”
+                — Proverbs 3:5
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Hope and Peace</h2>
+            <p>
+                God gives hope to the weary and peace to the troubled heart. 
+                No matter how dark the situation becomes, His light will always shine.
+            </p>
+
+            <div class="verse">
+                “With God all things are possible.”
+                — Matthew 19:26
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about">
+        <h2>About This Page</h2>
+        <p>
+            This simple website is created to inspire faith, hope, and positivity. 
+            It reminds us that God is always present in every moment of life. 
+            Through prayer, kindness, and trust in Him, we can continue moving 
+            forward with courage and peace.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Faith & Grace | God is greater than every storm.
+    </footer>
+
+</body>
+</html>
